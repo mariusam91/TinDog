@@ -1,0 +1,187 @@
+body {
+  font-family: "Montserrat-Black";
+  text-align: center;
+}
+
+
+.Container-fluid {
+  padding: 1% 15% 10%;
+}
+
+.dogimage {
+transform: rotate(25deg);
+  width: 60%;
+  position:absolute;
+  right:30%;
+}
+
+p {
+  color: #8f8f8f;
+  padding: 20px;
+}
+
+/* -----Sections----- */
+.colored-section {
+  background-color: #FEC771;
+  color:#FFF;
+}
+
+.white-section {
+    background-color: #FFF;
+}
+/* -----Headers----- */
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: 800;
+}
+
+.feature-title {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.big-heading {
+font-family: "Montserrat";
+font-weight: 800;
+font-size: 4rem;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+
+
+/*Navigation Bar*/
+.navbar {
+  padding:0 0 4.5rem ;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/*Buttons*/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* ------------Title----------- */
+
+
+@media (max-width:1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .dogimage {
+    position:static;
+    transform: rotate(0);
+  }
+}
+/* -------------features Section---------------*/
+#features {
+
+position:relative;
+z-index: 1;
+
+}
+
+
+.second-section {
+padding: 150px;
+}
+.box {
+  margin-bottom: 60px;
+}
+
+.icon {
+  font-size: 4rem;
+  padding: 18px;
+  color: #FEC771;
+}
+.icon:hover {
+  color:#FF4C68;
+}
+
+.sec-par {
+  padding: 0 50px;
+  color: #8F8F8F;
+  font-family:"Montserrat"
+}
+
+/*--------Testimonials---------*/
+
+
+.testimonial-text {
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* -----Pricing----- */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ------call to Action------ */
+#cta {
+  padding:7% 15%;
+}
+
+
+/* ----footer---- */
+#footer {
+  padding: 3% 15%;
+}
+
+.footer-icon {
+  margin:20px 10px;
+}
+
+.footer-line {
+  color:grey;
+  font-style: "Montserrat";
+}
